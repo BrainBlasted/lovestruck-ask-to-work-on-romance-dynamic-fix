@@ -14,6 +14,10 @@
     <U>
       <T n="static_commodity">136762<!--StaticCommodity: staticCommodity_FriendlySocials--></T>
     </U>
+    <U>
+      <T n="desire">100</T>
+      <T n="static_commodity">465374<!--StaticCommodity: staticCommodity_EP20_IF_Socialize--></T>
+    </U>
   </L>
   <T n="allow_autonomous">False</T>
   <T n="allow_user_directed">True</T>
@@ -87,6 +91,20 @@
         <U n="success_chance">
           <T n="base_chance">20</T>
         </U>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>441165<!--LootActions: lootActions_FairyOccult_Ability_EmotionalEnergyPositiveSocials--></T>
+        </L>
+      </U>
+    </V>
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>462479<!--LootActions: loot_Sentiment_AddSentiment_Adoring_ChildhoodSentiment_GrownUpsCanBeCool--></T>
+        </L>
       </U>
     </V>
   </L>
@@ -723,6 +741,13 @@
           <T n="key">34320<!--Trait: trait_elder--></T>
         </U>
         <U>
+          <T n="key">378502<!--Trait: trait_Hidden_EP17World_NPC_EdithBasu--></T>
+          <T n="value">-10</T>
+        </U>
+        <U>
+          <T n="key">443222<!--Trait: trait_Competitive--></T>
+        </U>
+        <U>
           <T n="key">9322<!--Trait: trait_Cheerful--></T>
         </U>
         <U>
@@ -913,7 +938,7 @@
     </L>
     <L>
       <V t="test_set_reference">
-        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubOrCustomerRulesOrHobbyClass--></T>
       </V>
       <V t="test_set_reference">
         <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
